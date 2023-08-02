@@ -15,7 +15,7 @@
 
 }
 
-.a-heading{
+.a-service-heading{
     font-size: 3rem ;
     font-weight: 700 ;
 
@@ -38,7 +38,57 @@
     box-shadow: 0 5px 45px rgba(0,0,0,0.1);
 }
 
-.a-title{
+.a-service-title{
     font-size: 2rem ;
     font-weight: 500 ;
 }
+
+
+.a-newsletter{
+    background-color: rgb(119, 22, 210);
+    color: white ;
+    display: flex ;
+    gap: 10px ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column ;
+    padding: 20px ;
+}
+
+.a-newsletter-heading{
+    font-size: 3rem ;
+    font-weight: 500 ;
+}
+
+.a-newsletter-description{
+    padding: 10px ;
+
+}
+
+.a-newsletter-searchbar{
+    background-color: white ;
+    padding: 10px ;
+    display: grid ;
+    grid-template-columns: 5fr 1fr;
+    gap: 10px ;
+    width: 90% ;
+    border: 1px solid transparent ;
+    border-radius: 10px ;
+}
+
+.a-newsletter-searchbar input{
+    border: none ;
+    outline: none ;
+}
+
+.a-newsletter-searchbar button{
+    background-color: rgb(119, 22, 210);
+    border-radius: 10px ;
+    padding: 5px ;
+    font-size: 2rem ;
+}
+
+
+
+
+
